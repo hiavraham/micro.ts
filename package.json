@@ -13,7 +13,6 @@
     "dev": "nodemon",
     "build": "./node_modules/typescript/bin/tsc -p tsconfig.json && cp package-production.json ./lib/package.json",
     "build:watch": "./node_modules/typescript/bin/tsc -w -p tsconfig.json",
-    "lint": "./node_modules/tslint/bin/tslint -t stylish --project \"tsconfig.json\"",
     "test": "./node_modules/.bin/mocha -r ts-node/register tests/**/*.spec.ts",
     "clean": "./node_modules/rimraf/bin.js lib"
   },
@@ -63,7 +62,6 @@
     "rimraf": "^2.6.3",
     "socket.io": "^2.3.0",
     "ts-node": "^8.8.1",
-    "tslint": "^5.20.1",
     "typeorm": "^0.2.24",
     "typescript": "^3.8.3",
     "uuid": "^8.3.0"
