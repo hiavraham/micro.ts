@@ -1,18 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "ES2018",
-        "module": "commonjs",
-        "declaration": true,
-        "sourceMap": false,
-        "outDir": "./lib",
-        "strict": true,
-        "rootDir": "./src",
-        "removeComments": false,
-        "esModuleInterop": true,
-        "types": ["node", "mocha", "chai"],
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "lib", "**/*.spec.ts"]
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "lib"
+  }
 }
